@@ -6,38 +6,108 @@ var game = {
     levels: {
 
         start: {
-            message: "You come across a dark cave",
+            message: "You are at a car meet, pick your car",
             choices: [
                 {
-                    text: "Enter the cave",
-                    nextLevel: "cave",
+                    text: "Audi R8",
+                    nextLevel: "audi",
                 },
 
                 {
-                    text: "Keep on moving",
-                    nextLevel: "field",
+                    text: "AMG mercedes c63",
+                    nextLevel: "mercedes",
                 },
             ]
         },
 
-        cave: {
+        audi: {
             background_image: "fire.gif",
             music: "Final-Fantasy-7-Boss-Battle.mp3",
-            message: "You come across a fire monster or something!",
+            message: "You come across an opponent",
             choices: [
                 {
-                    text: "Start over",
-                    nextLevel: "start",
+                    text: "Race the evo",
+                    nextLevel: "evo",
+                },
+                
+                {
+                    text: "Ignore him and keep watching the races",
+                    nextLevel: "ignore",
                 },
             ]
         },
 
-        field: {
-            message: "Some adventurer you are...",
+        mercedes: {
+            message: "You come across an opponent",
             choices: [
                 {
-                    text: "Start over",
-                    nextLevel: "start",
+                    text: "Race the supra",
+                    nextLevel: "supra",
+                },
+                
+                {
+                    text: "Punch him",
+                    nextLevel: "punch",
+                },
+            ]
+        },
+        
+        evo: {
+            message: "You come across an opponent",
+            choices: [
+                {
+                    text: "Race the supra",
+                    nextLevel: "supra",
+                },
+                
+                {
+                    text: "Punch him",
+                    nextLevel: "punch",
+                },
+            ]
+        },
+        
+        ignore: {
+            message: "You come across an opponent",
+            choices: [
+                {
+                    text: "Race the supra",
+                    nextLevel: "supra",
+                },
+                
+                {
+                    text: "Punch him",
+                    nextLevel: "punch",
+                },
+            ]
+        },
+        
+        supra: {
+            message: "You come across an opponent",
+            choices: [
+                {
+                    text: "Race the supra",
+                    nextLevel: "supra",
+                },
+                
+                {
+                    text: "Punch him",
+                    nextLevel: "punch",
+                },
+            ]
+        },
+        
+        punch: {
+            message: "You come across an opponent",
+            choices: [
+                {
+                    text: "Race the supra",
+                    nextLevel: "supra",
+                },
+                
+                {
+                    text: "Punch him",
+                    nextLevel: "punch",
                 },
             ]
         },
