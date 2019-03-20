@@ -56,14 +56,10 @@ var game = {
             message: "You come across an opponent",
             choices: [
                 {
-                    text: "Race the supra",
-                    nextLevel: "supra",
+                    text: "You lost",
+                    nextLevel: "",
                 },
                 
-                {
-                    text: "Punch him",
-                    nextLevel: "punch",
-                },
             ]
         },
         
@@ -71,13 +67,8 @@ var game = {
             message: "You come across an opponent",
             choices: [
                 {
-                    text: "Race the supra",
+                    text: "You found 1000 dollars as you were walking away",
                     nextLevel: "supra",
-                },
-                
-                {
-                    text: "Punch him",
-                    nextLevel: "punch",
                 },
             ]
         },
@@ -86,13 +77,7 @@ var game = {
             message: "You come across an opponent",
             choices: [
                 {
-                    text: "Race the supra",
-                    nextLevel: "supra",
-                },
-                
-                {
-                    text: "Punch him",
-                    nextLevel: "punch",
+                    text: "You win",
                 },
             ]
         },
@@ -101,14 +86,9 @@ var game = {
             message: "You come across an opponent",
             choices: [
                 {
-                    text: "Race the supra",
-                    nextLevel: "supra",
+                    text: "You get arrested and go to jail",
                 },
                 
-                {
-                    text: "Punch him",
-                    nextLevel: "punch",
-                },
             ]
         },
 
